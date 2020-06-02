@@ -26,7 +26,7 @@ Relevant code is in [preload.js](./preload.js) and [python/script.py](./python/s
 2. install node dependencies `npm install`
 3. create miniconda environment named `electron`:
     ```
-    conda create -n electron python=3.7
+    conda create -n electron python=3.7 unidecode
     ```
 4. run `npm run pyinstaller`. Currently there is no support for "dev server" for python. You need to run this command every time you change the python script.
 
